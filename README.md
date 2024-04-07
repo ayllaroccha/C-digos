@@ -9,9 +9,9 @@ Insira sua altura em metros e seu peso em quilogramas quando solicitado.
 A calculadora retornará o seu IMC e uma indicação do seu estado de acordo com a tabela de classificação da OMS.
 Fórmula do IMC
 
-O Índice de Massa Corporal é calculado pela seguinte fórmula:
+## O Índice de Massa Corporal é calculado pela seguinte fórmula:
 
-## IMC = peso / altura**2
+### IMC = peso / altura**2
 
 ## Onde:
 - peso é o peso da pessoa em quilogramas.
@@ -26,4 +26,4 @@ Obesidade Grau II: 35 <= IMC < 40
 Obesidade Grau III (obesidade mórbida): IMC >= 40
 
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
+### Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
