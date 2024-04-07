@@ -1,0 +1,21 @@
+# em kilogramas
+peso = int(input("Agora me informe seu peso em Kg: "))
+
+# em metros
+altura = float(input("Informe sua altura em metros: "))
+
+# calculo de imc
+imc= peso / (altura ** 2)
+print("O IMC dessa pessoa é de {:.1f}".format(imc))
+
+#definição de IMC
+if imc < 18.5:
+    print("Você está ABAIXO do peso.")
+elif 18.5 <= imc < 25:
+    print("Você está com o peso ideal.")
+elif 25 <= imc < 35:
+    print("você está em SOBREPESO.")
+elif 30 <= imc < 40:
+    print("VocÊ está em OBESIDADE!")
+else:
+    print("Você está em OBESIDADE MÓRBIDA, cuidado!.")
